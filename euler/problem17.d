@@ -5,7 +5,7 @@ import std.stdio;
 void main() {
 	ulong sum = 0;
 
-	for (int i=1; i<=1000; ++i) {
+	foreach (i; 1 .. 1001) {
 		sum+=letters(i);
 	}
 
